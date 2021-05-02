@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05C203E62F65F8882DB4B7F /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2AED20FC253C183DF527 /* TabBarItem.swift */; };
 		E05C20924F572B84DBD0895B /* pentacle.svg in Resources */ = {isa = PBXBuildFile; fileRef = E05C2E1DC913A1377189AE58 /* pentacle.svg */; };
+		E05C225BDDE7C3372AF46B22 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2434C37B38413469D62F /* Screen2.swift */; };
+		E05C22771C30399DFB6E9BEB /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C24ACF51B91BFB7DAA502 /* Scale.swift */; };
 		E05C22F3AF7109A4B950B861 /* Guitare_ScalesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C28F869279D0ADA988886 /* Guitare_ScalesUITests.swift */; };
+		E05C236D1A82D78D6B98D8B0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2083E5A49484B230DFB5 /* TabBar.swift */; };
+		E05C23B5F703516BD1B65A7A /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2AFE37B3D9AA0487FED4 /* Screen1.swift */; };
+		E05C25ACDA477AE04666B3C6 /* ScreenDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C230E3C0E209429616219 /* ScreenDetail.swift */; };
+		E05C286CB4D5EF187557113D /* README in Resources */ = {isa = PBXBuildFile; fileRef = E05C2207D262727AC124DD5E /* README */; };
+		E05C28AB2FF50D82D40134D1 /* ScreenScaleChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2F795A65371EAAD87E9D /* ScreenScaleChoice.swift */; };
+		E05C298B113B38B42464D2DA /* ShowModalTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2113C8157C06E15A2FFC /* ShowModalTabBarItem.swift */; };
 		E05C29B7C553668BAF37DE61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C25FC7B0ADAAB7B662E93 /* ContentView.swift */; };
 		E05C2B14B2FE4E7D0146E61A /* Guitare_ScalesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2E886806BD9FF0B324FD /* Guitare_ScalesTests.swift */; };
 		E05C2C2581DA0695727B4335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05C201A5632BDF015760E1A /* Assets.xcassets */; };
 		E05C2CEB43D0243EEB6527A7 /* Guitare_ScalesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2E8B0631F8FB753A247D /* Guitare_ScalesApp.swift */; };
+		E05C2DF7ABC8BC8ADA5AA412 /* ScreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2F329B076F308871F668 /* ScreenModal.swift */; };
+		E05C2E934204D8DB473D8EA9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C28599FF8C329068EB3DE /* Tab.swift */; };
 		E05C2EC0A5E9D1AB3847144D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05C2073E9B574C541D3E78A /* Preview Assets.xcassets */; };
+		E05C2F0221F5560229913388 /* CurrentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2C535199EBAAF0E6222E /* CurrentScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +48,29 @@
 /* Begin PBXFileReference section */
 		E05C201A5632BDF015760E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E05C2073E9B574C541D3E78A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E05C2083E5A49484B230DFB5 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E05C2113C8157C06E15A2FFC /* ShowModalTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowModalTabBarItem.swift; sourceTree = "<group>"; };
+		E05C2207D262727AC124DD5E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E05C230E3C0E209429616219 /* ScreenDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenDetail.swift; sourceTree = "<group>"; };
+		E05C2434C37B38413469D62F /* Screen2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
+		E05C24ACF51B91BFB7DAA502 /* Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		E05C25FC7B0ADAAB7B662E93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E05C26341B6A57542986F655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		E05C26D0CF5BC78288406619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E05C28599FF8C329068EB3DE /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		E05C2873FFF33A9BB31E0E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		E05C28F869279D0ADA988886 /* Guitare_ScalesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitare_ScalesUITests.swift; sourceTree = "<group>"; };
 		E05C2AE6A9F74F020C1BE637 /* Guitare ScalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitare ScalesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05C2AED20FC253C183DF527 /* TabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		E05C2AFE37B3D9AA0487FED4 /* Screen1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		E05C2C535199EBAAF0E6222E /* CurrentScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentScreen.swift; sourceTree = "<group>"; };
 		E05C2D4A33F44C430C793527 /* Guitare ScalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitare ScalesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05C2D9239A09904E6F90B8B /* Guitare Scales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitare Scales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05C2E1DC913A1377189AE58 /* pentacle.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; path = pentacle.svg; sourceTree = "<group>"; };
 		E05C2E886806BD9FF0B324FD /* Guitare_ScalesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitare_ScalesTests.swift; sourceTree = "<group>"; };
 		E05C2E8B0631F8FB753A247D /* Guitare_ScalesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitare_ScalesApp.swift; sourceTree = "<group>"; };
+		E05C2F329B076F308871F668 /* ScreenModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenModal.swift; sourceTree = "<group>"; };
+		E05C2F795A65371EAAD87E9D /* ScreenScaleChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenScaleChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +132,17 @@
 				E05C2E8B0631F8FB753A247D /* Guitare_ScalesApp.swift */,
 				E05C25FC7B0ADAAB7B662E93 /* ContentView.swift */,
 				E05C2E1DC913A1377189AE58 /* pentacle.svg */,
+				E05C2AFE37B3D9AA0487FED4 /* Screen1.swift */,
+				E05C230E3C0E209429616219 /* ScreenDetail.swift */,
+				E05C2434C37B38413469D62F /* Screen2.swift */,
+				E05C2F329B076F308871F668 /* ScreenModal.swift */,
+				E05C2113C8157C06E15A2FFC /* ShowModalTabBarItem.swift */,
+				E05C28599FF8C329068EB3DE /* Tab.swift */,
+				E05C2083E5A49484B230DFB5 /* TabBar.swift */,
+				E05C2AED20FC253C183DF527 /* TabBarItem.swift */,
+				E05C2C535199EBAAF0E6222E /* CurrentScreen.swift */,
+				E05C2F795A65371EAAD87E9D /* ScreenScaleChoice.swift */,
+				E05C24ACF51B91BFB7DAA502 /* Scale.swift */,
 			);
 			path = "Guitare Scales";
 			sourceTree = "<group>";
@@ -130,6 +165,7 @@
 				E05C23D5875F512E44397CEC /* Guitare ScalesTests */,
 				E05C21F8F56D58F464CAE3A4 /* Guitare ScalesUITests */,
 				0BF5035C263EBE0100C0E8E5 /* Frameworks */,
+				E05C2207D262727AC124DD5E /* README */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +239,7 @@
 		E05C2F3D3C69B0F8194BED2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					E05C214CFC32CC1DDF83F164 = {
 						DevelopmentTeam = 4M7L74G8T6;
@@ -211,11 +248,11 @@
 			};
 			buildConfigurationList = E05C2B83177525BA393B457C /* Build configuration list for PBXProject "Guitare Scales" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = E05C2BCCEAA87F7F8D057F68;
 			productRefGroup = E05C27DE8797AE56662CFDD2 /* Products */;
@@ -244,6 +281,7 @@
 				E05C2C2581DA0695727B4335 /* Assets.xcassets in Resources */,
 				E05C2EC0A5E9D1AB3847144D /* Preview Assets.xcassets in Resources */,
 				E05C20924F572B84DBD0895B /* pentacle.svg in Resources */,
+				E05C286CB4D5EF187557113D /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +317,17 @@
 			files = (
 				E05C2CEB43D0243EEB6527A7 /* Guitare_ScalesApp.swift in Sources */,
 				E05C29B7C553668BAF37DE61 /* ContentView.swift in Sources */,
+				E05C23B5F703516BD1B65A7A /* Screen1.swift in Sources */,
+				E05C25ACDA477AE04666B3C6 /* ScreenDetail.swift in Sources */,
+				E05C225BDDE7C3372AF46B22 /* Screen2.swift in Sources */,
+				E05C2DF7ABC8BC8ADA5AA412 /* ScreenModal.swift in Sources */,
+				E05C298B113B38B42464D2DA /* ShowModalTabBarItem.swift in Sources */,
+				E05C2E934204D8DB473D8EA9 /* Tab.swift in Sources */,
+				E05C236D1A82D78D6B98D8B0 /* TabBar.swift in Sources */,
+				E05C203E62F65F8882DB4B7F /* TabBarItem.swift in Sources */,
+				E05C2F0221F5560229913388 /* CurrentScreen.swift in Sources */,
+				E05C28AB2FF50D82D40134D1 /* ScreenScaleChoice.swift in Sources */,
+				E05C22771C30399DFB6E9BEB /* Scale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -446,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

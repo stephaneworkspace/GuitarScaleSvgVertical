@@ -4,52 +4,36 @@
 //
 //  Created by Stephane Bressani on 01.05.21.
 //
-//
 
 import SwiftUI
 
+
 struct ContentView: View {
-    @State private var animating = false
+    //@State private var animating = false
+    @State private var currentView: Tab = .TabScale
+    @State private var showModal: Bool = false
 
     var body: some View {
-        /*
-        Image("pentacle")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .rotationEffect(animating ? Angle.degrees(360): .zero)
-                .animation(Animation .linear(duration: 2)
-                .repeatForever(autoreverses: false)
-                )
-        .onAppear {self.animating = true}*/
         NavigationView {
-            List {
-                NavigationLink(
-                        destination: DestinationPageView(color: .purple)
-                ) {
-                    Text("Purple Page")
-                }
-                NavigationLink(
-                        destination: DestinationPageView(color: .pink)
-                ) {
-                    Text("Pink Page")
-                }
-                NavigationLink(
-                        destination: DestinationPageView(color: .orange)
-                ) {
-                    Text("Orange Page")
-                }
-            }
-            Text("Select a color page from the links.")
+            VStack {
+                CurrentScreen(currentView: self.$currentView)
+                TabBar(currentView: self.$currentView, showModal: self
+                        .$showModal)
+            }.edgesIgnoringSafeArea(.all)
         }
-                //.navigationViewStyle(StackNavigationViewStyle())
-        TabBar(items: [
-            (Image(systemName: "tray"), Text("Scales")),
-            (Image(systemName: "doc.text"), Text("About"))
-        ]).padding(10)
-          .border(Color.blue).frame(width: 100, height: 50).padding(15)
+                .background(Color(.lightGray))
+                .navigationViewStyle(StackNavigationViewStyle())
+                .sheet(isPresented: self.$showModal) { ScreenModal() }
+                /*TabBar(items: [
+                    (Image(systemName: "tray"), Text("Scales")),
+                    (Image(systemName: "doc.text"), Text("About"))
+                ]).padding(10)
+                  .border(Color.blue).frame(width: 100, height: 50).padding
+                   (15)*/
     }
 }
 
+/*
 struct TabBar: View {
     var items: [(Image, Text)]
     @State var selectedIndex: Int = 0
@@ -114,3 +98,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+*/
