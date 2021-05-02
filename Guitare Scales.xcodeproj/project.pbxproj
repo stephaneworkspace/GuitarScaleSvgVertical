@@ -194,11 +194,19 @@
 /* Begin PBXProject section */
 		E05C2F3D3C69B0F8194BED2F /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					E05C214CFC32CC1DDF83F164 = {
+						DevelopmentTeam = 4M7L74G8T6;
+					};
+				};
+			};
 			buildConfigurationList = E05C2B83177525BA393B457C /* Build configuration list for PBXProject "Guitare Scales" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E05C2BCCEAA87F7F8D057F68;
@@ -288,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_ASSET_PATHS = "\"Guitare Scales/Preview Content\"";
+				DEVELOPMENT_TEAM = 4M7L74G8T6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Guitare Scales/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -361,8 +370,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -386,6 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_ASSET_PATHS = "\"Guitare Scales/Preview Content\"";
+				DEVELOPMENT_TEAM = 4M7L74G8T6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Guitare Scales/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -496,6 +505,7 @@
 				E05C20EC729225B6834EB336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05C21C1812A9CD6FF990149 /* Build configuration list for PBXNativeTarget "Guitare ScalesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				E05C284DBDBD8E8720593F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05C2AF8F82BCE667694B21A /* Build configuration list for PBXNativeTarget "Guitare ScalesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +523,7 @@
 				E05C2354E730ED527C1F50E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05C2B83177525BA393B457C /* Build configuration list for PBXProject "Guitare Scales" */ = {
 			isa = XCConfigurationList;
