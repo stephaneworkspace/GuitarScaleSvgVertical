@@ -74,6 +74,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF5035C263EBE0100C0E8E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E05C21F8F56D58F464CAE3A4 /* Guitare ScalesUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +129,7 @@
 				E05C277804D86C61EDFC10DB /* Guitare Scales */,
 				E05C23D5875F512E44397CEC /* Guitare ScalesTests */,
 				E05C21F8F56D58F464CAE3A4 /* Guitare ScalesUITests */,
+				0BF5035C263EBE0100C0E8E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

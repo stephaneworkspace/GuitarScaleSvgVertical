@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var animating = false
+
     var body: some View {
         /*
         Image("pentacle")
@@ -40,12 +41,12 @@ struct ContentView: View {
             }
             Text("Select a color page from the links.")
         }
+                //.navigationViewStyle(StackNavigationViewStyle())
         TabBar(items: [
-            (Image(systemName: "tray"), Text("Inbox")),
-            (Image(systemName: "archivebox"), Text("Archive")),
-            (Image(systemName: "doc.text"), Text("Drafts"))
-        ]).padding()
-          .border(Color.blue)
+            (Image(systemName: "tray"), Text("Scales")),
+            (Image(systemName: "doc.text"), Text("About"))
+        ]).padding(10)
+          .border(Color.blue).frame(width: 100, height: 50).padding(15)
     }
 }
 
@@ -60,12 +61,14 @@ struct TabBar: View {
             }
         }) {
             VStack {
-                items[index].0
+                items[index].0.cornerRadius(5.0)
                 items[index].1
             }
         }
                 .anchorPreference(key: AnchorKey.self, value: .bounds, transform: { self.selectedIndex == index ? $0 : nil})
                 .accentColor(index == selectedIndex ? .blue : .primary)
+                .padding(15)
+                .frame(width: 90, height: 40, alignment: .center)
     }
 
     private func indicator(_ bounds: Anchor<CGRect>?) -> some View {
