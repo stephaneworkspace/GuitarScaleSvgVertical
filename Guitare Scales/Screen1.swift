@@ -7,7 +7,7 @@ import Foundation
 import SwiftUI
 
 struct Screen1: View {
-    var scale = [Scale.Major, Scale.Minor, Scale.PentagonicMajor, Scale
+    var scale = [Scale.Major, Scale.Minor, Scale.MajorPentagonic, Scale
             .PhrygianDominant, Scale.Dorian, Scale.Dorian4, Scale.Mixolydian]
     var body: some View {
         VStack {
@@ -25,7 +25,7 @@ struct Screen1: View {
                 NavigationLink(destination: ScreenScaleChoice(currentChoice:
                                                               data
                 )) {
-                    Text(scaleToString(enumScale: data))
+                    Text(scaleToString(enumScale: data, tonic: "E"))
                 }
                 Spacer()
             }

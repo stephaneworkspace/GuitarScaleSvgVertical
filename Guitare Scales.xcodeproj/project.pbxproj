@@ -14,6 +14,7 @@
 		E05C22F3AF7109A4B950B861 /* Guitare_ScalesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C28F869279D0ADA988886 /* Guitare_ScalesUITests.swift */; };
 		E05C236D1A82D78D6B98D8B0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2083E5A49484B230DFB5 /* TabBar.swift */; };
 		E05C23B5F703516BD1B65A7A /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2AFE37B3D9AA0487FED4 /* Screen1.swift */; };
+		E05C24F47F82D7A0F7F7FA50 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2C3CBF9805EF98DE037F /* theme.swift */; };
 		E05C25ACDA477AE04666B3C6 /* ScreenDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C230E3C0E209429616219 /* ScreenDetail.swift */; };
 		E05C286CB4D5EF187557113D /* README in Resources */ = {isa = PBXBuildFile; fileRef = E05C2207D262727AC124DD5E /* README */; };
 		E05C28AB2FF50D82D40134D1 /* ScreenScaleChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C2F795A65371EAAD87E9D /* ScreenScaleChoice.swift */; };
@@ -63,6 +64,7 @@
 		E05C2AE6A9F74F020C1BE637 /* Guitare ScalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitare ScalesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05C2AED20FC253C183DF527 /* TabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		E05C2AFE37B3D9AA0487FED4 /* Screen1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		E05C2C3CBF9805EF98DE037F /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
 		E05C2C535199EBAAF0E6222E /* CurrentScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentScreen.swift; sourceTree = "<group>"; };
 		E05C2D4A33F44C430C793527 /* Guitare ScalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitare ScalesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05C2D9239A09904E6F90B8B /* Guitare Scales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitare Scales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 				E05C2C535199EBAAF0E6222E /* CurrentScreen.swift */,
 				E05C2F795A65371EAAD87E9D /* ScreenScaleChoice.swift */,
 				E05C24ACF51B91BFB7DAA502 /* Scale.swift */,
+				E05C2C3CBF9805EF98DE037F /* theme.swift */,
 			);
 			path = "Guitare Scales";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				E05C2F0221F5560229913388 /* CurrentScreen.swift in Sources */,
 				E05C28AB2FF50D82D40134D1 /* ScreenScaleChoice.swift in Sources */,
 				E05C22771C30399DFB6E9BEB /* Scale.swift in Sources */,
+				E05C24F47F82D7A0F7F7FA50 /* theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
